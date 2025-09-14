@@ -32,8 +32,7 @@ customers[1].email = "therealdoodlebob@usf.edu";
 console.log(customers);
 
 const newPurchase = ("McChicken");
-const ronaldPurchases = [customers[5]];
-ronaldPurchases.push(newPurchase);
+customers[5].push(newPurchase);
 console.log(customers);
 
 // Display Customer Information 
