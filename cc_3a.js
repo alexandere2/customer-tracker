@@ -31,7 +31,7 @@ console.log(customers);
 customers[1].email = "therealdoodlebob@usf.edu";
 console.log(customers);
 
-let newPurchase = ("McChicken");
+const newPurchase = ("McChicken");
 const ronaldPurchases = (customers[5]);
 customers.ronaldPurchases.push(newPurchase);
 console.log(customers);
